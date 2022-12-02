@@ -1,0 +1,43 @@
+Arguments: 
+  /home/andre/.asdf/installs/nodejs/17.6.0/bin/node /usr/share/yarn/bin/yarn.js add typescript ts-node-dev tsconfigpaths @types/node -D
+
+PATH: 
+  /home/andre/.asdf/plugins/nodejs/shims:/home/andre/.asdf/installs/nodejs/17.6.0/.npm/bin:/home/andre/.asdf/installs/nodejs/17.6.0/bin:/home/andre/.asdf/shims:/home/andre/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  17.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tsconfigpaths: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1342:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "api-ng-cash-v1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:MacielDev/api-ng-cash-v1.git",
+    "author": "Andre_linux <andreraizdetudo@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
