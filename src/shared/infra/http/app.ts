@@ -1,8 +1,9 @@
-import { NextFunction, Request, Response } from 'express';
-import AppError from '@shared/errors/AppErros';
-import cors from 'cors';
-import express from 'express';
+import express, { NextFunction, Request, Response } from 'express';
+import 'express-async-errors';
 import routes from './routes';
+import cors from 'cors';
+import AppError from '@shared/errors/AppErros';
+import '@shared/infra/typeorm';
 
 const app = express();
 
